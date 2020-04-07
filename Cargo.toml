@@ -1,0 +1,10 @@
+[workspace]
+
+members = [
+    "main",
+    "side-lib",
+]
+
+default-members = [
+    "main"
+]

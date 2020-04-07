@@ -1,0 +1,10 @@
+[package]
+name = "main"
+version = "0.5.0"
+authors = ["Rotem Yaari"]
+edition = "2018"
+
+[dependencies]
+better-panic = "0.2.0"
+diesel = { version = "1.4.4", features = ["postgres", "chrono", "r2d2", "serde_json", "uuidv07"] }
+side-lib = { path = "../side-lib" }
